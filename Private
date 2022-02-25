@@ -1,6 +1,5 @@
 --[[
-Cristmas
-Christmas- Christmas was here                                                                                                                                                                  
+Cruki clan- juki was here                                                                                                                                                                  
 --]]
  
  
@@ -2107,7 +2106,7 @@ do
     library:FormatWindows()
 end
  
-local Window = library:AddWindow("Christmas", {
+local Window = library:AddWindow("yukiassist.me", {
     main_color = Color3.fromRGB(10, 10, 10),
     min_size = Vector2.new(450, 500),
     toggle_key = Enum.KeyCode.RightShift,
@@ -2160,7 +2159,7 @@ end
 local bindableFunction= Instance.new("BindableFunction")
  
 game.StarterGui:SetCore("SendNotification", {
-    Title = "Christmas";
+    Title = "yukiassist";
     Text = "Welcome";
     Icon = "RBXID OR BLANK";
     Duration = "DURATION IN SECONDS";
@@ -2284,8 +2283,8 @@ folder2:AddButton("School Roof", function(bool)
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-525.353455, 68.125, 311.824402, 0.999992013, 1.03866675e-08, -0.00399552286, -1.03507425e-08, 1, 9.01170427e-09, 0.00399552286, -8.97027519e-09, 0.999992013)
 end)
  
-CreditTAB:AddButton("Made by Christmas.#0001", function(bool)
-    setclipboard("Christmas.#0001")
+CreditTAB:AddButton("Made by a;#0006/xus x  uki clan", function(bool)
+    setclipboard("a;#0006")
     wait(1)
     local function callback(text)
         if text == "Yes" then
@@ -2322,7 +2321,7 @@ CreditTAB:AddButton("Join discord.gg/S4nPz6quZM", function(bool)
     local bindableFunction= Instance.new("BindableFunction")
     
     game.StarterGui:SetCore("SendNotification", {
-        Title = "Christmas";
+        Title = "ruki";
         Text = "Discord Link Copied On Clipboard";
         Icon = "RBXID OR BLANK";
         Duration = "DURATION IN SECONDS";
@@ -2595,7 +2594,7 @@ pcall(function()
           Text = 'Our Discord link was copied to your clipboard thx';
           Duration = 20;
          })
-         setclipboard('https://discord.gg/S4nPz6quZM')
+         setclipboard('https://discord.gg/PDpQn7WdRr')
       end))
     end
   end)
